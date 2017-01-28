@@ -77,7 +77,7 @@ if ($is_installer_url) {
 }
 else {
   $config_directories = array(
-    CONFIG_SYNC_DIRECTORY => 'sites/default/config',
+    CONFIG_SYNC_DIRECTORY => '../config',
   );
 }
 
@@ -170,4 +170,3 @@ if (empty($settings['file_scan_ignore_directories'])) {
     'bower_components',
   ];
 }
-
