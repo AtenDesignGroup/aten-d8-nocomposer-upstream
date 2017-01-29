@@ -1,0 +1,44 @@
+name: Aten D8
+type: profile
+description: 'Aten D8 helps setup Drupal in a consistent way. It doesn't do a ton, but provides an easier way for keeping contrib modules up-to-date in one place.'
+core: 8.x
+distribution:
+  name: Aten D8
+dependencies:
+  - node
+  - history
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - automated_cron
+  - admin_toolbar
+  - adminimal_admin_toolbar
+themes:
+  - bootstrap
+  - seven
+  - adminimal_theme
