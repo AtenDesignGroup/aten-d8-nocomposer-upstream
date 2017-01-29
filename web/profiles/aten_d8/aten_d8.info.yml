@@ -1,6 +1,6 @@
 name: Aten D8
 type: profile
-description: 'Aten D8 helps setup Drupal in a consistent way. It doesn't do a ton, but provides an easier way for keeping contrib modules up-to-date in one place.'
+description: 'Aten D8 helps setup Drupal in a consistent way. It doesn\'t do a ton, but provides an easier way for keeping contrib modules up-to-date in one place.'
 core: 8.x
 distribution:
   name: Aten D8
