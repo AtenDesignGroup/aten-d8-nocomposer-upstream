@@ -1,4 +1,6 @@
 <?php
+use Drupal\Core\Form\FormStateInterface;
+
 function aten_d8_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
 
   // Account information defaults
