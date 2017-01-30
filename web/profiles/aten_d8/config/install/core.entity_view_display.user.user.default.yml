@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies:
-  config:
+  config: {  }
   module:
     - user
 id: user.user.default
