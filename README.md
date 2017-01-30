@@ -10,7 +10,13 @@ Long-term, Composer will be the approach for D8 projects. Pantheon allows users 
 git subtree add --prefix web git@github.com:pantheon-systems/drops-8.git master --squash
 
 ### Updating with GIT subtree
+
+#### Pantheon Drop 8
 git subtree pull --prefix web git@github.com:pantheon-systems/drops-8.git master --squash
+
+#### Aten D8 Install profile
+git subtree pull --prefix web/profiles/aten_d8 git@github.com:AtenDesignGroup/aten-d8-profile.git master --squash
+
 
 Checkout http://blogs.atlassian.com/2013/05/alternatives-to-git-submodule-git-subtree/ for more info on git subtrees.
 
