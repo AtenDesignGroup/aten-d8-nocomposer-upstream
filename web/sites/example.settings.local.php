@@ -64,7 +64,7 @@ $config['system.performance']['js']['preprocess'] = FALSE;
  *
  * Do not use this setting until after the site is installed.
  */
-# $settings['cache']['bins']['render'] = 'cache.backend.null';
+$settings['cache']['bins']['render'] = 'cache.backend.null';
 
 /**
  * Disable Dynamic Page Cache.
@@ -73,7 +73,7 @@ $config['system.performance']['js']['preprocess'] = FALSE;
  * cacheability metadata is present (and hence the expected behavior). However,
  * in the early stages of development, you may want to disable it.
  */
-# $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
+$settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
 
 /**
  * Allow test modules and themes to be installed.
@@ -105,3 +105,30 @@ $settings['rebuild_access'] = TRUE;
  * directory.
  */
 $settings['skip_permissions_hardening'] = TRUE;
+
+
+/**
+ * twig_debug settings.
+ */
+$settings['twig_debug'] = TRUE;
+$settings['twig_auto_reload'] = TRUE;
+$settings['twig_cache'] = FALSE;
+
+/**
+ * If using vagrant, uncomment and update.
+ */
+// $databases['default']['default'] = array (
+//   'database' => '',
+//   'username' => '',
+//   'password' => '',
+//   'prefix' => '',
+//   'host' => 'localhost',
+//   'port' => '3306',
+//   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+//   'driver' => 'mysql',
+// );
+
+/**
+ * If using vagrant, uncomment and update.
+ */
+// $settings['hash_salt'] = '';
