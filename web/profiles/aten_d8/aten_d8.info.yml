@@ -38,6 +38,7 @@ dependencies:
   - automated_cron
   - admin_toolbar
   - adminimal_admin_toolbar
+  - inline_entity_form
 themes:
   - bootstrap
   - seven
